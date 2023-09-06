@@ -16,6 +16,7 @@ p{
     position: sticky;
     top: 0;
     z-index: 100;
+    color: white !important;
 }
 
 .brand-navbar {
@@ -64,7 +65,7 @@ p{
     /* margin-top: 20px; */
     display: flex;
     height: 100vh;
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(255, 255, 255);
     padding-left: 8rem;
     padding-right: 8rem;
 }
@@ -73,11 +74,11 @@ p{
     margin: 30px;
     /* position: absolute;
     top: 50; */
-    color: white;
+    color: rgb(0, 0, 0);
     max-width: 50%;
 }
 .landing-txt h1{
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 8rem !important;
     margin: 9px;
     color: var(--primary);
@@ -100,7 +101,7 @@ p{
     position: relative;
     border-radius: 6px;
     box-sizing: border-box;
-    color: var(--txtwhite);
+    color:var(--primary);
     display: block;
     z-index: 2;
     overflow: hidden;
@@ -113,12 +114,15 @@ p{
     padding: 0.875rem 0;
     font-size: 1.1rem;
     align-items: center;
-    background: #000;
+    background: #ffffff;
     border-radius: 3px;
     display: block;
     justify-content: center;
     box-sizing: border-box;
     height: 100%;
+}
+.editor-btn:hover {
+    color: black;
 }
 
 .editor-btn:before {
@@ -139,26 +143,28 @@ p{
     width: 50%;
 }
 .l-bg-container{
-    background-color: rgb(20, 20, 20);
+    background-color: rgba(255, 255, 255, 0.63);
     width: 100%;
     height: 60vh;
     margin: 10vh 0px;
     border-radius: 15px;
-    box-shadow: 1px 1px 20px  rgb(51, 51, 51);
+    box-shadow: 1px 1px 20px  rgb(214, 214, 214);
 }
 
 .l-3-container{
+    /* background-color: rgb(255, 255, 255); */
     /* display: flex; */
     /* flex-direction: column; */
     /* position: absolute;
     top: 17vh;
     left: 150vh; */
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .code-container{
     margin: 5px;
-    background-color: rgb(30,30,30);
+    background-color: rgb(248, 248, 248);
+    box-shadow: 1px 1px 20px  rgb(133, 133, 133);
     border-radius: 12px;
     padding: 20px;
     width: 20%;
@@ -177,7 +183,7 @@ p{
         font-weight: 600;
         font-size: 16px;
         letter-spacing: 1.57px;
-        color: #ffffff;
+        color: #000000;
         margin: 0;
 }
 .l-html {
@@ -217,7 +223,7 @@ p{
 .service-container{
     height: 70vh;
 
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(255, 255, 255);
 }
 .service-container img{
         max-width: 100%;
@@ -232,13 +238,13 @@ p{
     display: flex;
 }
 .service-card{
-    background: hsl(223.6363636364deg ,12.9411764706% ,16.6666666667%);
+    background: hsl(0, 0%, 93%);
     padding: 1.5rem 1.5rem 2rem;
     margin: 1.3rem ;
     border-radius: 10px;
     position: relative;
     z-index: 1;
-    color: white;
+    color: rgb(0, 0, 0);
     height: 40vh;
     min-width: 20%;
 }
@@ -246,7 +252,7 @@ p{
     margin: 12px 10px 0;
 }
 .service-card .HomepageAnonCards_icon-AFa\+u {
-     background-color: rgb(17, 17, 17);
+     background-color: rgb(0, 58, 85);
     border-radius: 10px;
     width: 75px;
     height: 90px;
@@ -290,8 +296,8 @@ p{
     text-decoration: none !important;
     font-weight: 600 !important;
     cursor: pointer;
-    background: black;
-    color: white;
+    background: rgb(3, 111, 173);
+    color: rgb(255, 255, 255);
     padding: 10px 16px ;
     margin: 1px 10px 1px 0px;
     border-radius: 5px ;
@@ -305,6 +311,11 @@ p{
     color: white;
 }
 
+
+
+
+
+
 .enviroment-container {
     position: relative;
     z-index: 1;
@@ -312,8 +323,8 @@ p{
     /* display: grid; */
     /* grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem; */
-    background: rgb(17, 17, 17);
-    color: white;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding-left: 20vh;
     padding-right: 20vh;
     height: 60vh;
@@ -349,7 +360,7 @@ p{
 
 
 .enviroment-topic-container {
-    background: hsl(223.6363636364deg, 12.9411764706%, 16.6666666667%);
+    background: hsl(199, 100%, 14%);
     border-radius: 6px;
     box-shadow: 5px 0 15px rgb(0 0 0 / 25%);
     position: relative;
@@ -375,7 +386,7 @@ p{
 }
 
 .footer{
-    background-color: black;
+    background-color: var(--black);
     height: 15vh;
     padding: 50px;
 }
@@ -392,9 +403,10 @@ p{
 }
 .width-wrappe h4{
     color: white;
+
 }
 .width-wrappe a{
-    color: rgb(142, 141, 141);
+    color: rgb(219, 219, 219);
 }
 
 .SiteFooterStyles_linkFooter-O8s\+b nav {
@@ -420,22 +432,26 @@ p{
 #link-footer-copyright h1 a{
     font-family: 'Teko',
     sans-serif;
-    color: var(--primary);
+    color: white;
     font-size: 3rem;
     position: relative;
     right: 50px;
 }
 
 
+
+
+
+
 .challenges-container{
-    background: rgb(30,30,30);
-    color: white;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     /* height: 150vh; */
     padding: 50px;
 }
 .challenge-container{
-    background: rgb(30,30,30);
-    color: white;
+    background: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     /* height: 150vh; */
     padding: 50px;
 }
@@ -444,7 +460,7 @@ p{
     width: 60%;
     margin: 20px auto;
     /* border: 2px solid white; */
-    background: rgb(38, 42, 51);
+    background: rgb(231, 231, 231);
     padding: 50px;
     border-radius: 8px;
     height: auto;
@@ -453,20 +469,21 @@ p{
     width: 60%;
     margin: 20px auto;
     /* border: 2px solid white; */
-    background: rgb(38, 42, 51);
+    background: rgb(240, 240, 240);
     padding: 50px;
     border-radius: 8px;
     /* height: auto; */
     height: 100vh;
+    color: #000;
 }
 
 .challenges-heading{
     font-family: 'Radio Canada', sans-serif ;
     font-size: 45px;
 }
-.challenges-heading:hover{
+/* .challenges-heading:hover{
     color: var(--primary);
-}
+} */
 /* .challenges-heading:before{
     position: absolute;
     left: 10rem;
@@ -498,7 +515,7 @@ time,strong,.YourChallenge_challengePrompt span{
     color: whitesmoke;
 }
 .green {
-    background-color: yellow;
+    background-color: rgb(0, 126, 199);
     color: #000;
 }
 .green:hover {
@@ -512,9 +529,9 @@ time,strong,.YourChallenge_challengePrompt span{
         position: relative;
     left: -12.8rem;
     top: 3rem;
-    background: #47cf73;
-    background: linear-gradient(140deg,green,yellow);
-    color: black;
+    background: #005bb1;
+    background: linear-gradient(140deg,rgb(0, 174, 255),rgb(95, 95, 95));
+    color: rgb(255, 255, 255);
     border-radius: 100%;
     content: "";
     height: 24px;
@@ -533,10 +550,10 @@ time,strong,.YourChallenge_challengePrompt span{
     .YourChallenge_yourChallenge {
         position: absolute;
         width: 50%;
-    background: rgb(61, 68, 87);
+    background: rgb(255, 255, 255);
     left: 22rem;
     top: 47rem;
-    color: #fff;
+    color: #000000;
     padding: 2rem;
     margin: 2rem 0;
     border-radius: 4px;
@@ -545,6 +562,7 @@ time,strong,.YourChallenge_challengePrompt span{
 }
 .YourChallenge_challengePrompt strong{
     font-size: 30px;
+    color: #000;
 }
 
 .YourChallenge_yourChallenge:before {
@@ -572,9 +590,10 @@ time,strong,.YourChallenge_challengePrompt span{
     width: 100%;
 } */
 .ChallengesIdeasAndResources_challengeListArea-55MV8 {
-    background: hsl(223.6363636364deg ,12.9411764706% ,16.6666666667%);
+    background: hsl(0, 0%, 92%);
     padding: 2rem;
     border-radius: 8px;
+    color: #000;
 }
 .ChallengesIdeasAndResources_root-cQEyn h4 {
     font-family: 'Telefon Black', Sans-Serif;;
@@ -582,7 +601,7 @@ time,strong,.YourChallenge_challengePrompt span{
     letter-spacing: 1.5px;
     margin-top: -3rem;
     margin-bottom: 1rem;
-    color: yellow;
+    color: var(--black);
 }
 
 
@@ -601,8 +620,8 @@ time,strong,.YourChallenge_challengePrompt span{
 }
 .ChallengesIdeasAndResources_challengeListArea-55MV8 ol li:before {
     content: counter(my-awesome-counter);
-    background: yellow;
-    color: #000;
+    background: var(--black);
+    color: #ffffff;
     border-radius: 50%;
     font-size: 1rem;
     font-weight: 700;

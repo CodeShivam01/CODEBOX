@@ -34,7 +34,7 @@ function About() {
           </div>
         </div>
         <div className="about">
-          <div className="about-left">
+          <div className="about-left left">
             <p>
               <strong>We say social</strong>, because CodeBox is a community.
               Most creations on CodePen are public and open source. They are
@@ -44,7 +44,7 @@ function About() {
             </p>
           </div>
 
-          <div className="about-right about-devinfo">
+          {/* <div className="about-right about-devinfo">
             <div className="devinfo">
               <h1>
                 Shivam <br />
@@ -67,7 +67,7 @@ function About() {
                 development for CodeBox.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="about">

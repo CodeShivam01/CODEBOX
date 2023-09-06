@@ -1,13 +1,24 @@
 * {
   margin: 0;
 }
+.btn2{
+  background: #000;
+}
 
 :root {
-  --bgblack: rgb(35, 35, 35);
+  /* --bgblack: rgb(35, 35, 35);
   --black: rgb(0, 0, 0);
   --primary: rgb(34, 192, 255);
-  /* --primary: hsl(202, 100%, 26%); */
   --txtwhite: white;
+  --btn: rgb(10, 163, 223); */
+
+
+  
+  --bgblack: rgb(255, 255, 255);
+  --black: rgb(0, 80, 126);
+  --primary: rgb(34, 192, 255);
+  /* --primary: hsl(202, 100%, 26%); */
+  --txtwhite: rgb(255, 255, 255);
   --btn: rgb(10, 163, 223);
 }
 
@@ -94,9 +105,9 @@
 /* color:  red#ec1c24, black#212d31, grey#343a40, white#eee  */
 
 .contact-container{
-  background-color: rgb(19, 19, 19);
+  background-color: rgb(255, 255, 255);
   height: 100vh;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 30px;
   display: flex;
 }
@@ -114,7 +125,7 @@
   height: 70vh;
 }
 .contain {
-  background-color: rgb(19, 19, 19);
+  background-color: rgb(255, 255, 255);
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
@@ -122,7 +133,7 @@
 }
 
 div.form {
-  background-color: rgb(19, 19, 19);
+  background-color: rgb(255, 255, 255);
 }
 
 .contact-wrapper {

@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
 import "../blog/Blog.css";
-import Footer from '../component/Footer';
-import Header from '../component/Header';
+import Footer from "../component/Footer";
+import Header from "../component/Header";
 import { Link } from "react-router-dom";
-
 
 function Blog() {
   return (
@@ -23,34 +22,36 @@ function Blog() {
               land your next job.
             </p>
             <br />
-            <Link to="/BlogArtical" class="button">
+            <Link to="/BlogArtical" class="button btn2">
               Read More
             </Link>
           </div>
           <div className="blogbox-section">
             <div className="artical">
-              
               <Link to="/Update">
                 <div className="artical-div">
                   <h2>CodeBox News & Update</h2>
                   <span>20/05/2022</span>
                 </div>
-              </Link><br />
+              </Link>
+              <br />
               <Link to="/Update">
                 <div className="artical-div">
                   <h2>Challenges Update</h2>
                   <span>19/05/2022</span>
                 </div>
               </Link>
-            </div><br /><br />
+            </div>
+            <br />
+            <br />
             <div className="artical">
-              
               <Link to="/Update">
                 <div className="artical-div">
                   <h2>Technology</h2>
                   <span>20/05/2022</span>
                 </div>
-              </Link><br />
+              </Link>
+              <br />
               <Link to="/Update">
                 <div className="artical-div">
                   <h2>Education</h2>
@@ -66,4 +67,4 @@ function Blog() {
   );
 }
 
-export default Blog
+export default Blog;
