@@ -1,11 +1,11 @@
 import React from 'react'
 import EditorApp from "../components/EditorApp";
-// import Header from '../component/Header'
+import Header from '../component/Header'
 
 function Code() {
   return (
     <div>
-        {/* <Header/> */}
+        <Header/>
         {/* <h1>CODE PAGE</h1> */}
         <EditorApp/>
         {/* <h1>hello code
